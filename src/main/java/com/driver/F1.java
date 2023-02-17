@@ -2,6 +2,11 @@ package com.driver;
 
 public class F1 extends Car {
 
+    @Override
+    public boolean isManual() {
+        return isManual;
+    }
+
     private boolean isManual;
 
     public F1(String name, boolean isManual) {
